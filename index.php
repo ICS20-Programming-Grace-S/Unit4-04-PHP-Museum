@@ -25,7 +25,7 @@
     
     <!-- PHP echo to print the html to the page -->
     <h1><?php 
-			echo "Museum Admisson Fee in JS";?></h1>
+			echo "Museum Admisson Fee in PHP";?></h1>
 
     <!-- Image -->
     <?php
