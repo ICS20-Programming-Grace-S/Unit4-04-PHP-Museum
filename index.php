@@ -62,22 +62,22 @@
         $day = ($_POST['day']);
         
         if ($age <=0) {
-          echo "Please enter a valid age.";
+          echo "<h3>Please enter a valid age.</h3>";
         }
         else if ($age < 5 || $age > 95) {
-          echo "The admisson fee is FREE for you.";
+          echo "<h3>The admisson fee is FREE for you.</h3>";
         } 
         else if (($age >=12) && ($age <=21)) {
-          echo "You get a student discount.";
+          echo "<h3>You get a student discount.</h3>";
         } 
         else if ((($day == "Tuesday") && ($age > 21)) || (($day == "Thursday") && ($age > 21))) {
-          echo "You get a discount price.";
+          echo "<h3>You get a discount price.</h3>";
         } 
         else if (($age > 21) || ($day != "")) {		
-          echo "You have to pay regular price.";
+          echo "<h3>You have to pay regular price.</h3>";
         } 
         else {
-          echo "Please make a proper selection.";
+          echo "<h3>Please make a proper selection.</h3>";
         }
       }
     ?>   

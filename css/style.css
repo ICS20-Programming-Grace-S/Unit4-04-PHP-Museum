@@ -5,18 +5,18 @@
 */
 
 body {
-  background-color: rgb(191, 49, 47);
+  background-color: rgb(249, 244, 221);
   text-align: center;
 }
 
 h1 {
-	background-color: rgb(236, 203, 91);
+	background-color: rgb(238, 225, 165);
 	color: hsl(0, 0%, 0%);
 	padding: 40px;
 }
 
-div {
-  font-weight: bold;
-  color: #050505;
-  margin: 5px;
+h3 {
+  background-color: #f4ecc7;
+  color: #97a5d7;
+  text-align: center;
 }
