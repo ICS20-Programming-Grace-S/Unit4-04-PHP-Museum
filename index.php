@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- Title --> 
-    <title>Museum Admisson Fee in JS</title>
+    <title>Museum Admisson Fee in PHP</title>
   </head>
   <body>
     
